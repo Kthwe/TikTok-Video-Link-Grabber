@@ -14,7 +14,7 @@ from subprocess import CREATE_NO_WINDOW
 import glob
 
 html_preferred = True
-# ayeayemyint180
+# add TikTok username inside manual_update list.
 manual_update = ["", "", "",
                  "", "", "",
                  "", "", "",
