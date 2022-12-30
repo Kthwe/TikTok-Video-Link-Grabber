@@ -15,7 +15,7 @@ import glob
 
 html_preferred = True
 # ayeayemyint180
-manual_update = ["shunshun367", "", "",
+manual_update = ["", "", "",
                  "", "", "",
                  "", "", "",
                  "", "", "",
@@ -28,27 +28,6 @@ manual_update = ["shunshun367", "", "",
                  "", "", ""
                  ]
 
-manual_update_ = ['amisoe06', 'aqueen9984', 'bae_luna8', 'eaintpyaepyaeaung2', 'eichawaung', 'eiphyu1792',
-                  'haymarnminthant', 'hlamyonwe88', 'hninhtetaung11', 'hsumyatnoehtut', 'hsuwainaing710', 'htat081',
-                  'itsmecandy55', 'kayzinthoonlatt1', 'kkmsan', 'kyawtkyawt06', 'limittyp', 'lover192021', 'mckyithar6',
-                  'meenandar3', 'mithazinhw', 'moemoewai4', 'muthaethae', 'myathsutheint', 'nandar.1997',
-                  'papasoemyint2', 'phoo489011122288', 'phuephue1236', 'shwekanot19gmail.com', 'shwetheingi97',
-                  'shweyiwinhtetsan1', 'soe_yu98', 'sulaysandi3', 'thinzarlinn2002', 'ur_bby_ellie', 'winthandarcho0',
-                  'winthundarkyaw', 'x.p.p00', 'yadanar1232', 'yamone819', 'yoonyoon8888', 'yunn1k998',
-                  'zinmarmarnaing', 'pyaepyae0444', 'yuries28',
-                  'zuzuhan123']
-
-fast_update = ["tinzartun69", "yadanar1334576", "khaingthagyan2",
-               "maychitthaee", "khinthandarsoe36", "ximei200616",
-               "kaykay948", "user344408307691", "khaingthazinmoe8",
-               "eiphyusin222", "sumyat155227", "usere2qarv1dd5",
-               "zuri20020", "hninn2k", "annah2992",
-               "candynu26", "khunn2000", "user527460898796",
-               "maythuchit3", "xtetxtet887", "waiyinchawyadanar8",
-               "nadiko11", "eainthmupaing2062000", "thaethae5471",
-               "chann_po", "claramay11", "dyjzzd9p0qu6",
-               "atom221220", "syaminoo1", "thithi378"]
-
 fast_update_flag = False
 # fast_update_flag = True
 if fast_update_flag:
@@ -58,8 +37,8 @@ else:
 MAX_PAGE = 30
 single_directory = True
 view_count = False
-singleDirectory = "aeiaeiz"
-last_name = "khine0488"
+singleDirectory = ""
+last_name = ""
 user_link_ = "https://www.tiktok.com/@" + singleDirectory
 FILEBROWSER_PATH = os.path.join(os.getenv('WINDIR'), 'explorer.exe')
 
@@ -198,18 +177,7 @@ if __name__ == '__main__':
                 except:
                     try:
                         for page in range(1, MAX_PAGE, 1):
-                            # try:
-                            #     for div in driver.find_elements(By.XPATH, '//*[@id="tiktok-verify-ele"]/div/div[1]'):
-                            #         if div.find_element(By.CLASS_NAME, 'captcha_verify_bar'):
-                            #             print("Waiting to solve")
-                            #             for _ in range(10):
-                            #                 if not driver.find_elements(By.XPATH, '//*[@id="tiktok-verify-ele"]'):
-                            #                     break
-                            #                 if driver.find_elements(By.XPATH, '//*[@id="tiktok-verify-ele"]'):
-                            #                     print("Sleep")
-                            #                     time.sleep(5)
-                            # except:
-                            #     continue
+                  
                             print("\rLoading page {} ...".format(page), end='', flush=True)
                             for wall in driver.find_elements(By.XPATH,
                                                              '//*[@id="app"]/div[2]/div[2]/div/div[2]/div[2]/div'):
